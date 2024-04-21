@@ -36,9 +36,11 @@ button {
 @media(max-width:680px) {
     .container {
         flex-direction: column;
+        flex-wrap: nowrap;
         width: 100vw;
     }
     .card {
         width: 80vw;
+        margin-bottom: 20px;
     }
 }
